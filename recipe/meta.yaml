@@ -19,7 +19,7 @@ requirements:
   host:
     - python {{ python_min }}
     - numpy
-    - hatch
+    - hatchling
     - hatch-vcs
     - pip
   run:
