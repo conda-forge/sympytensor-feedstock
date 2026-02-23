@@ -24,7 +24,7 @@ requirements:
     - pip
   run:
     - python >={{ python_min }}
-    - pytensor >= 2.38.0
+    - pytensor >=2.38.0
     - sympy
     - pymc
 
