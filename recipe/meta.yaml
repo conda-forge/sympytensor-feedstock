@@ -1,6 +1,6 @@
 {% set name = "sympytensor" %}
 {% set version = "1.4.0" %}
-{% set python_min = "3.10" %}
+{% set python_min = "3.11" %}
 
 package:
   name: {{ name|lower }}
@@ -24,7 +24,7 @@ requirements:
     - pip
   run:
     - python >={{ python_min }}
-    - pytensor >=2.38.0
+    - pytensor >=2.37.0
     - sympy
     - pymc
 
