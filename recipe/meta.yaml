@@ -27,6 +27,7 @@ requirements:
     - pytensor >=2.37.0
     - sympy
     - pymc
+    - mpmath >=1.1.0,<1.4.0
 
 test:
   imports:
