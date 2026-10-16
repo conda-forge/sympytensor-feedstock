@@ -1,5 +1,5 @@
 {% set name = "sympytensor" %}
-{% set version = "2.1.0" %}
+{% set version = "2.2.0" %}
 {% set python_min = "3.12" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/sympytensor-{{ version }}.tar.gz
-  sha256: f1a838f38b4fa5cdea4a43986cf73fa46b3a4219dc0e5ebc7ab2d31b64d90a69
+  sha256: eb1534b2a789bdf06a9d9f270a1fcc2b9d1a72958daba587bfe9ccc8a76504f5
 
 build:
   noarch: python
